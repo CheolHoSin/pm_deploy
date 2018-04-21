@@ -18,7 +18,7 @@ module.exports = {
    */
   deploy : {
     production : {
-      key: 'keys/awskey.pem',
+      key: 'keys/linux.ppk',
       user : 'ubuntu',
       host : '54.64.28.43',
       ref  : 'origin/master',
