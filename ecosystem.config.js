@@ -24,7 +24,7 @@ module.exports = {
       ref  : 'origin/master',
       repo : 'https://github.com/CheolHoSin/pm_deploy.git',
       path : '/home/ubuntu/nodejs/helloworld',
-      'post-deploy' : 'pm2 reload ecosystem.config.js'
+      'post-deploy' : 'npm install; grunt dist; pm2 reload ecosystem.config.js'
     },
   }
 };
