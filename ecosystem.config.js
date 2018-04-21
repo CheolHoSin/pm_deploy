@@ -22,7 +22,7 @@ module.exports = {
       user : 'ubuntu',
       host : '54.64.28.43',
       ref  : 'origin/master',
-      repo : 'git@github.com:CheolHoSin/pm_deploy.git',
+      repo : 'https://github.com/CheolHoSin/pm_deploy.git',
       path : '/home/ubuntu/nodejs/helloworld',
       'post-deploy' : 'pm2 reload ecosystem.config.js'
     },
